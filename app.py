@@ -53,7 +53,7 @@ def dba():
             class_="valuation").text.strip(), 'current_bid': resultset_element.find(
             class_="status").text.strip()}
         title = case['title']
-        if not any(word in title for word in negative_list):
-            if any(word in title for word in positive_list):
+        if not any(word in case['title'] for word in negative_list):
+            if any(word in case['title'] for word in positive_list):
                 product_list.append(case)
     return product_list
