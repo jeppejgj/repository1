@@ -1,1 +1,9 @@
-[{'store': 'Coop365', 'name': 'Skrabeæg', 'price': '12\xa0kr.', 'fromDate': '2022-09-01', 'toDate': '2022-09-07'}, {'store': 'Coop365', 'name': 'Buko fløde eller smelte ost', 'price': '10\xa0kr.', 'fromDate': '2022-09-01', 'toDate': '2022-09-07'}]
+{'store': 'Coop365', 'name': 'Skrabeæg', 'price': '12\xa0kr.', 'fromDate': '2022-09-01', 'toDate': '2022-09-07'}
+{'store': 'Coop365', 'name': 'Buko fløde eller smelte ost', 'price': '10\xa0kr.', 'fromDate': '2022-09-01', 'toDate': '2022-09-07'}
+{'title': "Arne Jacobsen. 'Syveren'. Par spisestole, model 3107 (2)", 'valuation': 'EUR 805', 'current_bid': 'EUR 403'}
+{'title': "Arne Jacobsen. Par 'Syver' barstole, sorte (2)", 'valuation': 'EUR 940', 'current_bid': 'EUR 671'}
+{'title': "Arne Jacobsen. Par 'Syver' barstole, sorte (2)", 'valuation': 'EUR 940', 'current_bid': 'EUR 671'}
+{'title': '14 mm benforlængere. Sæt til 6 stk. Arne Jacobsen stole', 'valuation': 'EUR < 125', 'current_bid': 'EUR 81'}
+{'title': "Arne Jacobsen for Fritz Hansen. Model 3207. Otte forsidepolstret 'Syveren' stole (8)", 'valuation': 'EUR 1,074', 'current_bid': 'EUR 832'}
+{'title': 'Arne Jacobsen. To syverstole model 3107 (2)', 'valuation': 'EUR 403', 'current_bid': 'EUR 268'}
+{'title': "Arne Jacobsen. 'Syveren' stol model 3107", 'valuation': 'EUR 161', 'current_bid': 'EUR 107'}
