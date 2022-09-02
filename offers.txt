@@ -1,1 +1,1 @@
-None1
+[{'store': 'Coop365', 'name': 'Skrabeæg', 'price': '12\xa0kr.', 'fromDate': '2022-09-01', 'toDate': '2022-09-07'}, {'store': 'Coop365', 'name': 'Buko fløde eller smelte ost', 'price': '10\xa0kr.', 'fromDate': '2022-09-01', 'toDate': '2022-09-07'}]

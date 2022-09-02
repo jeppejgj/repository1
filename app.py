@@ -20,7 +20,7 @@ resultset_cheese = results_cheese.find_all(
 
 resultset_final = resultset_eggs + resultset_cheese
 
-stores = ["Rema 1000", "Netto", "Føtex"]
+stores = ["Rema 1000", "Netto", "Føtex", "Coop365"]
 product_list = []
 today = datetime.today()
 
@@ -33,4 +33,4 @@ def groceries():
         if case['store'] in stores:
             if today >= from_date and today <= to_date:
                 product_list.append(case)
-    pprint.pprint(product_list)
+    return product_list
