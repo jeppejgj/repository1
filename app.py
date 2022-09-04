@@ -25,7 +25,7 @@ def groceries():
 
     product_list = []
     today = datetime.today()
-    stores = ["Rema 1000", "Netto", "Føtex", "Coop365"]
+    stores = ["REMA 1000", "Netto", "føtex", "Coop365"]
     for resultset_element in resultset_final:
         case = {'store': resultset_element.find(class_="BusinessLabel__BusinessLabelDiv-sc-iksnba-0 ijMGWk").text.strip(), 'name': resultset_element.find("header").text.strip(), 'price': resultset_element.find(
             class_="UniversalCardList___StyledStack-sc-4v1xeg-7 dYBUkI").text.strip(), 'fromDate': resultset_element.find(itemprop="validFrom").get("content")[0:10], 'toDate': resultset_element.find(itemprop="priceValidUntil").get("content")[0:10]}
@@ -52,7 +52,6 @@ def dba():
         case = {'title': resultset_element.find(class_="pListLinkHeader").text.strip(), 'valuation': resultset_element.find(
             class_="valuation").text.strip(), 'current_bid': resultset_element.find(
             class_="status").text.strip()}
-        title = case['title']
         if not any(word in case['title'] for word in negative_list):
             if any(word in case['title'] for word in positive_list):
                 product_list.append(case)
